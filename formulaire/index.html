@@ -1,0 +1,43 @@
+<!doctype html>
+ <html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="présentation de kevin guerin">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+    <body bgcolor="#222222" text="#00ee99">
+        <h1>un exo sur les formulaires</h1>
+        <a href="nivekguerin@gmail.com">nivekguerin@gmail.com</a>
+        <form method="get">
+            <label for="premierinput">premier input :</label>
+            <input  type="text" 
+                    name="monpremierinput" 
+                    id="premierinput"
+                    placeholder="paul" />
+            <input  type="submit"
+                    name="monpremierinput"
+                    id="premierinput" />
+            <input type="range" min="0" max="10" step="2" name="range :">
+            <select name="nom" id "voiture">
+                <option value="renault">renault</option>
+                <option value="peugeot">peugeot</option>
+                <option value="mercedes">mercedes</option>
+                <option value="BMW">BMW</option>
+            </select>
+            <input type="submit" name="valider">
+            <input type="reset" name="reset">
+        </form>
+        <form method="post" enctype="multipart/form-data"></form>
+
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
