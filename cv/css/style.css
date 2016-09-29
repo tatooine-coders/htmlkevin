@@ -1,0 +1,220 @@
+*{
+	box-marging: boder-box;
+}
+
+
+p{
+	color: blue;
+}
+
+a{
+	color: #123456;
+	padding: 2em;
+}
+
+body{
+	background-color: #000000;
+}
+
+h1,h2,h3,h4,h5{
+	color: #ffffff
+}
+span{
+	display: inline-block;
+}
+
+
+span p{
+	color:red;
+}
+
+span.competence{
+	width:24%;
+}
+
+
+
+span.experience{
+	width:74%;
+}
+
+
+p.lienext a{
+	color: red;
+}
+
+p.lienint a{
+	color: yellow;
+}
+a.lienlepoint {
+	color: green;
+}
+
+a[href^="http"]{
+	color: red;
+}
+
+a[href^="https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0ahUKEwj39cDWpbLPAhVEnBoKHfhcCn8QFggtMAI&url=http%3A%2F%2Fwww.lepoint"]{
+	color: green;
+}
+body > p{
+	color:grey;
+}
+
+
+a[href^="file"]{
+	color: yellow;
+}
+
+h1 + p{
+	color:purple;
+}
+
+/*span[data-poids *="8"] /*<--les span ayant l'attribut data-poids contenant 8*/
+
+td:nth-child(2n+0){
+	color:red;
+	background-color: #ffffff
+}
+/*td:nth-of-type(1n+1){
+	color:red;
+	background-color: #ffffff
+}*/
+
+/*p:first-child{
+	text-transform: uppercase;
+}*/
+
+p:only-child{
+	text-transform: uppercase;
+}
+td > h4{
+	color: red;
+}
+/*div{
+	width:250px;
+	height:250px;
+	background-color: rgba(0,240,170, 0.8);
+	background: url(file:///home/kevin/Bureau/html/cv/index.jpeg);
+	background-size: cover;
+}*/
+
+footer > div{
+	display: inline-block;
+	width:25px;
+	height:33px;
+	background-color: rgba(0,240,170, 0.8);
+	background: url(file:///home/kevin/Bureau/html/cv/css/35-social-icons-sprites.jpg);
+	/*background-origin: (250px,0px);*/
+	background-position: -50px -33px;
+}
+div{
+	width:25px;
+	height:25px;
+}
+div:hover{
+	background-position: -50px -67px
+}
+div > div:nth-of-type(2){
+	width:25px;
+	height:8px;
+	background: url(file:///home/kevin/Bureau/html/cv/css/35-social-icons-sprites.jpg);
+	background-position: -50px 0px
+}
+div:hover > div:nth-of-type(2){
+	display: block;
+	width:25px;
+	height:8px;
+	background-position: -50px -100px
+}
+footer > div:nth-of-type(0n+2){
+	width:25px;
+	height:25px;
+	background-position: -125px -33px
+}
+footer > div:nth-of-type(0n+2):hover{
+	background-position: -125px -67px
+}
+footer > div:nth-of-type(0n+3){
+	background-position: -200px -33px
+	width:25px;
+	height:25px;
+}
+footer > div:nth-of-type(0n+3):hover{
+	background-position: -200px -67px
+}
+footer > div:nth-of-type(0n+4){
+	background-position: -275px -33px
+}
+footer > div:nth-of-type(0n+4):hover{
+	background-position: -275px -67px
+}
+footer > div:nth-of-type(0n+5){
+	background-position: -350px -33px
+}
+footer > div:nth-of-type(0n+5):hover{
+	background-position: -350px -67px
+}
+footer > div:nth-of-type(0n+6){
+	background-position: -50px -122px
+}
+footer > div:nth-of-type(0n+6):hover{
+	background-position: -50px -156px
+}
+footer > div:nth-of-type(0n+7){
+	background-position: -125px -122px
+}
+footer > div:nth-of-type(0n+7):hover{
+	background-position: -125px -156px
+}
+footer > div:nth-of-type(0n+8){
+	background-position: -200px -122px
+}
+footer > div:nth-of-type(0n+8):hover{
+	background-position: -200px -156px
+}
+footer > div:nth-of-type(0n+9){
+	background-position: -275px -122px
+}
+footer > div:nth-of-type(0n+9):hover{
+	background-position: -275px -156px
+}
+footer > div:nth-of-type(0n+10){
+	background-position: -350px -122px
+}
+footer > div:nth-of-type(0n+10):hover{
+	background-position: -350px -156px
+}
+footer > div:nth-of-type(0n+11){
+	background-position: -50px -211px
+}
+footer > div:nth-of-type(0n+11):hover{
+	background-position: -50px -245px
+}
+footer > div:nth-of-type(0n+12){
+	background-position: -125px -211px
+}
+footer > div:nth-of-type(0n+12):hover{
+	background-position: -125px -245px
+}
+footer > div:nth-of-type(0n+13){
+	background-position: -200px -211px
+}
+footer > div:nth-of-type(0n+13):hover{
+	background-position: -200px -245px
+}
+footer > div:nth-of-type(0n+14){
+	background-position: -275px -211px
+}
+footer > div:nth-of-type(0n+14):hover{
+	background-position: -275px -245px
+}
+footer > div:nth-of-type(0n+15){
+	background-position: -350px -211px
+}
+footer > div:nth-of-type(0n+15):hover{
+	background-position: -350px -245px
+}
+nav{
+	background-color: #555555
+}
